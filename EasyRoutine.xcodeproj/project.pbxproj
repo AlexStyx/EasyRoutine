@@ -10,6 +10,7 @@
 		5F523B1625B62676000C319E /* DoneTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F523B1525B62676000C319E /* DoneTasksTableViewController.swift */; };
 		5F523B1925B62724000C319E /* DeletedTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F523B1825B62724000C319E /* DeletedTasksTableViewController.swift */; };
 		5F523B2025B6275B000C319E /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F523B1F25B6275B000C319E /* AccountViewController.swift */; };
+		5F568C002604F26300CC93D9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5F568BFF2604F26300CC93D9 /* .gitignore */; };
 		5F6BB79925B2A4480019E21E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BB79825B2A4480019E21E /* AppDelegate.swift */; };
 		5F6BB79B25B2A4480019E21E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6BB79A25B2A4480019E21E /* SceneDelegate.swift */; };
 		5F6BB7A025B2A4480019E21E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F6BB79E25B2A4480019E21E /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		5F523B1525B62676000C319E /* DoneTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneTasksTableViewController.swift; sourceTree = "<group>"; };
 		5F523B1825B62724000C319E /* DeletedTasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletedTasksTableViewController.swift; sourceTree = "<group>"; };
 		5F523B1F25B6275B000C319E /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		5F568BFF2604F26300CC93D9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5F6BB79525B2A4480019E21E /* EasyRoutine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRoutine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F6BB79825B2A4480019E21E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F6BB79A25B2A4480019E21E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		5F6BB78C25B2A4480019E21E = {
 			isa = PBXGroup;
 			children = (
+				5F568BFF2604F26300CC93D9 /* .gitignore */,
 				5F6BB79725B2A4480019E21E /* EasyRoutine */,
 				5F6BB79625B2A4480019E21E /* Products */,
 			);
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F568C002604F26300CC93D9 /* .gitignore in Resources */,
 				5F6BB7A825B2A44B0019E21E /* LaunchScreen.storyboard in Resources */,
 				5F6BB7A525B2A44B0019E21E /* Assets.xcassets in Resources */,
 				5F6BB7A025B2A4480019E21E /* Main.storyboard in Resources */,
