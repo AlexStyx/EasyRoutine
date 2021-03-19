@@ -20,7 +20,6 @@ class TaskManager {
     
     
     init() {
-        print("items")
         context = (UIApplication.shared.delegate as? AppDelegate)?.coreDataStack.persistentContainer.viewContext
         let userName = "Alex"
         let fetchRequest: NSFetchRequest<User> = User.fetchRequest()
