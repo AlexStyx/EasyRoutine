@@ -50,7 +50,7 @@ class TaskManager {
         task.date = date
         task.isRemoved = false
         task.isCompleted = false
-        self.tasks.add(task)
+        tasks.add(task)
         user.tasks = self.tasks
         do {
             try context.save()
@@ -110,14 +110,8 @@ class TaskManager {
             tasks.insert(task, at: index)
             user.tasks = tasks
         }
-        if completed {
-            let task = completedTasks.remove(at: indexPath.row)
-            remove(task)
-        } else {
-            let task = uncompletedTasks.remove(at: indexPath.row)
-            remove(task)
-            
-        }
+        let task = completed ? completedTasks.remove(at: indexPath.row) : uncompletedTasks.remove(at: indexPath.row)
+        remove(task)
         do {
             try context.save()
         } catch let error as NSError {
